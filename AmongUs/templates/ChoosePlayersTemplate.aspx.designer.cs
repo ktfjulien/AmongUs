@@ -7,38 +7,47 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AmongUs
+namespace AmongUs.Skeld_Sites
 {
 
 
-    public partial class _Default
+    public partial class SkeldChoosePlayers
     {
 
         /// <summary>
-        /// SkeldButton control.
+        /// SevenPlayersButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton SkeldButton;
+        protected global::System.Web.UI.WebControls.Button SevenPlayersButton;
 
         /// <summary>
-        /// MiraButton control.
+        /// EightPlayersButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton MiraButton;
+        protected global::System.Web.UI.WebControls.Button EightPlayersButton;
 
         /// <summary>
-        /// PolusButton control.
+        /// NinePlayersButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton PolusButton;
+        protected global::System.Web.UI.WebControls.Button NinePlayersButton;
+
+        /// <summary>
+        /// TenPlayersButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button TenPlayersButton;
     }
 }

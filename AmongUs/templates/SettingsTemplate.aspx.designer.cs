@@ -7,38 +7,47 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AmongUs
+namespace AmongUs.templates
 {
 
 
-    public partial class _Default
+    public partial class SettingsTemplate
     {
 
         /// <summary>
-        /// SkeldButton control.
+        /// BestSettingsButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton SkeldButton;
+        protected global::System.Web.UI.WebControls.Button BestSettingsButton;
 
         /// <summary>
-        /// MiraButton control.
+        /// Option2Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton MiraButton;
+        protected global::System.Web.UI.WebControls.Button Option2Button;
 
         /// <summary>
-        /// PolusButton control.
+        /// Option3Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton PolusButton;
+        protected global::System.Web.UI.WebControls.Button Option3Button;
+
+        /// <summary>
+        /// Option4Button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Option4Button;
     }
 }

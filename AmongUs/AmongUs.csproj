@@ -125,6 +125,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="img\maps\swans2.jpg" />
+    <Content Include="img\maps\theskeld.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -154,6 +156,9 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Skeld Sites\SkeldChoosePlayers.aspx" />
+    <Content Include="templates\ChoosePlayersTemplate.aspx" />
+    <Content Include="templates\SettingsTemplate.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -200,6 +205,27 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Skeld Sites\SkeldChoosePlayers.aspx.cs">
+      <DependentUpon>SkeldChoosePlayers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Skeld Sites\SkeldChoosePlayers.aspx.designer.cs">
+      <DependentUpon>SkeldChoosePlayers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\ChoosePlayersTemplate.aspx.cs">
+      <DependentUpon>ChoosePlayersTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\ChoosePlayersTemplate.aspx.designer.cs">
+      <DependentUpon>ChoosePlayersTemplate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="templates\SettingsTemplate.aspx.cs">
+      <DependentUpon>SettingsTemplate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\SettingsTemplate.aspx.designer.cs">
+      <DependentUpon>SettingsTemplate.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
